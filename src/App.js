@@ -17,7 +17,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
-  
+  alert("Hello world");
   useEffect(()=>{
     getdata();
 })
