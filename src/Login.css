@@ -1,0 +1,31 @@
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.hlogin{
+    font-size: 20px;
+    font-weight: 800;
+}
+.linput{
+    font-weight: 700;
+    width: 400px;
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.antext{
+    font-size: 18px;
+    font-weight:500;
+}
+@media (max-width:800px){
+    .linput{
+        font-weight: 700;
+        width: 300px;
+        font-size: 20px;
+        padding: 20px;
+        margin: 20px;
+    }
+}
