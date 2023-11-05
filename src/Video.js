@@ -30,7 +30,7 @@ function CourseVideo() {
     const data = await axios.get('https://education-backend-eight.vercel.app/know/visitdata/'+localStorage.getItem('email'));
     console.log(data)
     if(data.data === 'Pythonbackend'){
-      setcourse([Web.Python_Django])
+      
       setvideopage(()=>{
         return (
           
