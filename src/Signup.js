@@ -34,7 +34,7 @@ function Signup() {
     <h1 className='hlogin'>Sign up and start your career</h1>
     <input className='linput' type="text" value={name} onChange={(e)=>setname(e.target.value)} placeholder='Full name' />
     <input className='linput' type="text" value={email} onChange={(e)=>setemail(e.target.value)} placeholder='Email' />
-    <input className='linput' type="text" value={password} onChange={(e)=>setpassword(e.target.value)} placeholder='Password' />
+    <input className='linput' type="password" value={password} onChange={(e)=>setpassword(e.target.value)} placeholder='Password' />
    
     <input  className='linput' onClick={onsignup} type="submit" value={'Sign up'} />
    
