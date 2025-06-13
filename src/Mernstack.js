@@ -6,7 +6,7 @@ import axios from "axios";
   const mycourse = 'Mernstack';
   const openrazorpay = (data)=>{
     const options = {
-     key:'rzp_test_j9y9J7mpIATZVk',
+     key:'rzp_test_9Xl0nm4yttKDhb',
      amount:Number(data.amount),
      currency:data.currency,
      name:'Coding-learner',
