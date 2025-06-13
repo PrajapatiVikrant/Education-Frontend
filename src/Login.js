@@ -42,7 +42,7 @@ function Login() {
     <h1 className='hlogin'>Login now</h1>
     <input className='linput' type="text" value={email} onChange={(e)=>setemail(e.target.value)} placeholder='Email' />
    
-    <input className='linput' type="text" value={password} onChange={(e)=>setpassword(e.target.value)} placeholder='Password' />
+    <input className='linput' type="password" value={password} onChange={(e)=>setpassword(e.target.value)} placeholder='Password' />
     <input  className='linput' onClick={onlogin} type="submit" value={'Login now'} />
     <p className="antext">If you don't have an account?<Link  to="/Signup">Sign up</Link></p>
     
