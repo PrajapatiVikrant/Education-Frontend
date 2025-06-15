@@ -81,8 +81,8 @@ function CourseVideo() {
             
                {course && course}
               
-               <h1>{topic}</h1>
            </article>
+             
         </div>
         {videopage}
       </div>

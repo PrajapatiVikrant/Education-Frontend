@@ -51,6 +51,7 @@ const [user,setuser] = useState(()=>{
 
         <Dropdown.Menu>
           <Dropdown.Item><Link className='link' to='/mycourses'> My Course</Link></Dropdown.Item>
+          <Dropdown.Item><Link className='link' to='/mycourses'> Logout</Link></Dropdown.Item>
           
         </Dropdown.Menu>
       </Dropdown>

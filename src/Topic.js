@@ -13,7 +13,7 @@ function Mytopic(props){
    }
     return (
       
-       <ReactPlayer url={link}  controls={true} width = "100%"  />
+       <ReactPlayer url={link}  controls={true} width = "100%" height="500px"  />
       
     )
 }

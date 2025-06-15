@@ -37,7 +37,7 @@ delaySpeed={2000}
 
 </div>
 <p className="smalltext">An investment in knowlede pays the best  interest</p>
-<div><a href="#course"> <button className='getstarted'>Get started</button></a></div>
+
 
 
 </div>
