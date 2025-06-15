@@ -23,7 +23,7 @@ function Courses() {
    let data = await axios.post('https://education-backend-eight.vercel.app/visit/name?name='+name+'&token='+localStorage.getItem('token'))
    if(data.data === 'success'){
     navigate('/allvideo')
-   alert('success')
+   
    }
  }
   return (

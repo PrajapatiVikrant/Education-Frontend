@@ -12,9 +12,9 @@ function Mytopic(props){
     setlink(data.data);
    }
     return (
-      <div>
-       <ReactPlayer url={link}  controls={true} width = "100%" height="610px" />
-       </div>
+      
+       <ReactPlayer url={link}  controls={true} width = "100%"  />
+      
     )
 }
 export default Mytopic;
